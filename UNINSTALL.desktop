@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=UNINSTALL
+Exec=sh -c 'python3 $(dirname "%k")/scripts/launch_uninstall.py'
+Icon=edit-delete
+Terminal=true
+Type=Application

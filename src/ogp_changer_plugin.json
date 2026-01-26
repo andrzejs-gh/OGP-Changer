@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "MimeTypes": [
+                        "application/octet-stream",
+                        "inode/directory",
+                        "inode/symlink",
+                        "inode/socket",
+                        "inode/fifo",
+                        "inode/blockdevice",
+                        "inode/chardevice"
+                     ],
+        "Name": "Change owner / group / permissions",
+        "Icon": "view-process-users",
+        "EnabledByDefault": true
+    },
+
+    "X-KDE-ServiceTypes": [
+        "KFileItemAction/Plugin"
+    ]
+}
