@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=INSTALL
-Exec=sh -c 'python3 $(dirname "%k")/scripts/installation_script.py'
+Exec=sh -c 'python3 $(dirname "$1")/scripts/installation_script.py' -- "%k"
 Icon=system-software-install
 Terminal=true
 Type=Application
