@@ -11,10 +11,10 @@ if __name__ == "__main__":
 			  "Uninstallation script will delete:\n"
 			  f"{home_bin_dir}/cogp\n"
 			  f"{home_bin_dir}/ogp_changer\n"
-			  f"{kfileitemaction_dir}/lib_ogp_changer.so\n\n"
+			  f"{kfileitemaction_dir}/ogp_changer_fileitemaction.so\n\n"
 			  "if they exist.\n\n"
 			  "To delete the plugin:\n"
-			  f"{kfileitemaction_dir}/lib_ogp_changer.so\n\n"
+			  f"{kfileitemaction_dir}/ogp_changer_fileitemaction.so\n\n"
 			  "root privileges are required. If you prefer, you can delete the files manually.\n\n"
 			  "Do you want to delete the files automatically (root required)?\n")
 		input_ = input("[y - yes / <any other input> - no]\n")

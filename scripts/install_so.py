@@ -2,15 +2,15 @@ import sys, shutil, os
 from utils import *
 
 def move_so_to_system_path(build_dir, kfileitemaction_dir):
-	so_build_path = build_dir + "/lib_ogp_changer.so"
+	so_build_path = build_dir + "/ogp_changer_fileitemaction.so"
 	
 	if not os.path.isfile(so_build_path):
-		raise Exception(f"lib_ogp_changer.so not found in {build_dir}")
+		raise Exception(f"ogp_changer_fileitemaction.so not found in {build_dir}")
 	
 	if not is_accessible(kfileitemaction_dir):
 		raise Exception(f"System directory: {kfileitemaction_dir} is not writable.")
 	
-	system_so_path = kfileitemaction_dir + "/lib_ogp_changer.so"
+	system_so_path = kfileitemaction_dir + "/ogp_changer_fileitemaction.so"
 	if os.path.exists(system_so_path):
 		try:
 			os.remove(system_so_path)

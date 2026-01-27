@@ -84,7 +84,7 @@ def install(build_dir):
 		  f"{kfileitemaction_dir}\n\n"
 		  "root privileges are required.\n\n"
 		  f"If you prefer, you can manually move the plugin there from:\n" 
-		  f"{build_dir}/lib_ogp_changer.so \n\n"
+		  f"{build_dir}/ogp_changer_fileitemaction.so \n\n"
 		  f"However, you must do it now before you skip this step, otherwise the temp directory:\n"
 		  f"{build_dir}\n\n"
 		  "will be deleted.\n\n"

@@ -13,7 +13,16 @@ When "Apply changes recursively" is selected, changes are applied to all selecte
 
 ## Installation and uninstallation
 
-To install **OGP Changer** launch INSTALL.desktop. Uninstallation is done by launching UNINSTALL.desktop. Both are handled by Python scripts in /scripts. Installation scripts build and install the binaries, uninstallation completely removes them. To install/remove the plugin to/from `.../kf6/kfileitemaction`, root privileges are required. The user will be asked for them and offered an alternative to manually move/remove the .so with the exact paths and directories provided
+To install **OGP Changer** launch INSTALL.desktop. Uninstallation is done by launching UNINSTALL.desktop. Both are handled by Python scripts located in /scripts. 
+
+Installation scripts build and install the following binaries:
+- cogp (installed in `~/.local/bin`)
+- ogp_changer (installed in `~/.local/bin`)
+- ogp_changer_fileitemaction.so (installed in `...Qt 6 plugin dir.../kf6/kfileitemaction`)
+
+Uninstallation completely removes them.
+
+To install or remove the plugin in `...Qt 6 plugin dir.../kf6/kfileitemaction`, root privileges are required. The user will be asked for them and offered an alternative to manually move/remove the .so with the exact paths and directories provided.
 
 ## Requirements
 

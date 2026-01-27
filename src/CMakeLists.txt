@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(_ogp_changer LANGUAGES CXX)
+project(ogp_changer LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -59,8 +59,9 @@ target_link_libraries(ogp_changer PRIVATE Qt6::Widgets)
 # ==============================================================
 
 # ================ build ogp_changer_plugin ===========================
-add_library(${PROJECT_NAME} MODULE ogp_changer_plugin.cpp)
-target_link_libraries(${PROJECT_NAME} PRIVATE
+add_library(ogp_changer_fileitemaction MODULE ogp_changer_plugin.cpp)
+set_target_properties(ogp_changer_fileitemaction PROPERTIES PREFIX "")
+target_link_libraries(ogp_changer_fileitemaction PRIVATE
 					  Qt6::Widgets
 					  KF6::KIOWidgets
 					  KF6::KIOCore

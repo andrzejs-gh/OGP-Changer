@@ -19,7 +19,7 @@ if __name__ == "__main__":
 		
 		cogp_path = home_dir + "/.local/bin/cogp"
 		ogp_changer_path = home_dir + "/.local/bin/ogp_changer"
-		system_so_path = system_plugin_dir + "/kf6/kfileitemaction/lib_ogp_changer.so"
+		system_so_path = system_plugin_dir + "/kf6/kfileitemaction/ogp_changer_fileitemaction.so"
 		
 		delete_files([cogp_path, ogp_changer_path, system_so_path])
 		
