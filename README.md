@@ -5,7 +5,7 @@ It uses **cogp** utility (separate repository: https://github.com/andrzejs-gh/co
 
 ## Privilege escalation
 
-Privilege escalation is done via **pkexec** when "Run as root" is selected.
+Privilege escalation is done via **pkexec** when "Run with root privileges" is selected.
 
 ## Applying changes recursively
 
